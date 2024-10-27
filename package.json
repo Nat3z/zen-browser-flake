@@ -1,0 +1,11 @@
+{
+  "name": "zen-browser-flake",
+  "module": "updateall.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
