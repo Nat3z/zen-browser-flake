@@ -9,17 +9,17 @@
     let
       system = "x86_64-linux";
 			# -- version browser
-      version = "1.0.1-a.15";
+      version = "1.0.1-a.17";
       downloadUrl = {
         "specific" = {
 					url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-specific.tar.bz2";
 					# -- sha256 specific
-					sha256 = "sha256:01rx73b8ixz7wc7vhwykfzscfpqcbfl6wk2pgmbnbb0mhmqclx6n";
+					sha256 = "sha256:0ahpig3kafphg0pnkl1r60b9phfp5s2rilpxb20q2fwz41d1miwi";
 				};
 				"generic" = {
 					url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-generic.tar.bz2";
 					# -- sha256 generic
-					sha256 = "sha256:02yjb02namv1g8j9b4jymk2vaas1hs90qsk7pk22nn5wsszsih0a";
+					sha256 = "sha256:1n1cq0j8hifvwanqs3wsy5q69w04h397q09adxmdbydm6m8xn5k0";
 				};
       };
 
